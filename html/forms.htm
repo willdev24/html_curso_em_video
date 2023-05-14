@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+      <h1>formularios</h1>
+      
+      
+                                <form> <!-- principal tag para trabalhar com formularios -->
+<!--tag para abrir os campos-->         <input type="--texto" placeholder="seu nome" />
+                                        <br>
+                                        <input type="--texto" placeholder="seu endereço" /><!-- placeholder: tag para nomear os fromularios-->
+                                        
+                                        <!-- existe outra forma de indicar ao usuario do que se trata o campo-->
+                                        <!--exemplo-->
+
+                                        <br>   <!--quebra de linha-->
+
+                                            <!--dentro da tecla LABEL usa-se FOR= " o mesmo endereço do comando id"-->
+                                        <input id="gmail" type="gmail" />
+                                        <label for="gmail">  seu-e-email</label>
+                                        <br>
+
+                                        <label  for="tel">fon namber </label>
+                                        <input id="tel" type="tel" placeholder="telefone" /> <br>
+
+                                        <input type="number" placeholder="numerico" max="10" min="0" step="2"/>
+                                        <!--step : intervalo de um nume para outo no (type="number")--> <br>
+
+                                       <input type="file" /> <br>        
+                                                   
+
+                                       <input type="checkbox" id="checkbox-termos"/> <label for="checkbox-termos" >aceito os termos</label>
+                                       <br>
+                                       <input type="color"/> 
+                                       <hr>
+                                       <a>
+                                        Eescolha sua cor favorita! <br>
+                                       </a>
+
+                                       <input type="radio" name="favorit" id="cor-vermelha"/> <label for="cor-vermelha" >vermelha</label>
+                                       <input type="radio" name="favorit" id="cor-verde" /> <label for="cor-verde" >verde</label>
+                                       <input type="radio" name="favorit" id="cor-rosa"/> <label for="cor-rosa" >rosa</label> <br><br><br>
+
+                                    <select multiple>
+                                        <option> filme-A </option>
+                                        <option>filme-B </option>
+                                        <option>filme-c </option>
+                                    <select>
+                                        <br><br>
+                                        <textarea></textarea> <!--caixa de texto-->
+<br>
+                                        <button type="submit" > 
+                                            enviar arquvos
+                                        </button>
+                                        
+                                        <button type="reset">
+                                           limpar
+                                        </button>
+
+
+
+                                
+ 
+                                </form>
+                                <a href="./midia_adaptavel.html" target="_blank" >ir para midia adaptavel </a>
+</body>
+</html>
